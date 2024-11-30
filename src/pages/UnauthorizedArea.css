@@ -1,0 +1,152 @@
+/* Main Container */
+.unauthorized-area-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+/* Title Section */
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Search Bar */
+.search-bar {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Unauthorized Area List */
+.area-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between area items */
+}
+
+.area-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr auto auto; /* Divides item into three sections */
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.area-item span {
+  font-weight: bold; /* Highlights the unauthorized area name */
+  color: #333;
+}
+
+/* Edit and Delete Buttons */
+.edit-button,
+.delete-button-area {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button-area {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button-area:hover {
+  background-color: #b52a32;
+}
+
+/* Fallback Message for Empty List */
+.no-areas {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Form Styles */
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #e0a800;
+}
