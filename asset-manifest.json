@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/css/main.abe67455.css",
+    "main.js": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/js/main.36261bf9.js",
+    "static/js/453.ad2882c1.chunk.js": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/js/453.ad2882c1.chunk.js",
+    "index.html": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/index.html",
+    "main.abe67455.css.map": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/css/main.abe67455.css.map",
+    "main.36261bf9.js.map": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/js/main.36261bf9.js.map",
+    "453.ad2882c1.chunk.js.map": "/pravin2105/SmartAIHackathon_Smart-Worker-Monitoring-and-Security-System/static/js/453.ad2882c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe67455.css",
+    "static/js/main.36261bf9.js"
+  ]
+}
